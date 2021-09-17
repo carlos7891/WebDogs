@@ -11,8 +11,6 @@ ul{
     justify-content: space-between;
     padding: 10px;
 }
-<<<<<<< HEAD
-=======
 .mainButton{
     background-color: #7CCB80;
     color: white;
@@ -27,4 +25,3 @@ ul{
     /* box-shadow: 5px 5px #069380; */
     transform: scale(1.1);
 }
->>>>>>> 5-crear-boton-nuevo-post
