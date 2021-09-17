@@ -48,9 +48,7 @@ ul{
     border-radius: 8px;
     font-size: 1.8rem;
     margin-left: 1rem;
-    
-    
-    
+           
 }
 .buscar:focus-within{
     border: 1px solid green;
