@@ -12,11 +12,11 @@ ul{
     justify-content: space-between;
     padding: 10px 10px 10px 0px;
     align-items: center;
-    
+    background-color: rgb(243, 236, 236);
+    border-bottom: 1px solid gray;
 }
 .logo{
     width: 10rem;
-    
 }
 .button{
     border: 0px;
@@ -48,7 +48,6 @@ ul{
     border-radius: 8px;
     font-size: 1.8rem;
     margin-left: 1rem;
-           
 }
 .buscar:focus-within{
     border: 1px solid green;
@@ -57,5 +56,9 @@ ul{
     outline: none;
     border: 0px;
     font-size: 1.3rem;
-    max-width: 11rem;
+    max-width: 12rem;
+    justify-content: space-between;
+}
+.iconoBusquedad:hover{
+    color: #069380;
 }
