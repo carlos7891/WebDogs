@@ -12,8 +12,9 @@ ul{
     justify-content: space-between;
     padding: 10px 10px 10px 0px;
     align-items: center;
-    background-color: rgb(243, 236, 236);
-    border-bottom: 1px solid gray;
+    background-color: rgb(240, 231, 231);
+    border-bottom: 1px solid rgb(173, 169, 169);
+    box-shadow: 1px 1px 1px grey;
 }
 .button{
     border: 0px;
@@ -63,12 +64,14 @@ ul{
 }
 .contentimg:hover{
     cursor: pointer;
-    transform: scale(1.02);}
+    transform: scale(1.02);
+}
 .contentimg > img{
     object-fit: cover;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow: 0px 2px 2px grey;
 }
 .breedCardContainer{
     display: flex;
@@ -81,11 +84,39 @@ ul{
 
 }
 .CardTitle{
-    color:#7CCB80;
+    color:black;
     margin: 10px;
     font-weight: bold;
     font-size:20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto Mono', monospace;
     display: block;
     text-align: center;
+}
+.Section1Title{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size:35px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+    color: black;
+}
+.Cardfooter{
+    display: block;
+    text-align: left;
+    padding-bottom:10px;
+    padding-left: 10px;
+}
+.Cardfooter > i{
+    margin-right: 10px;
+}
+.Cardfooter > i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.fa-gratipay{
+    color:red;
+}
+body{
+    background-color: rgb(248, 239, 239);
 }
